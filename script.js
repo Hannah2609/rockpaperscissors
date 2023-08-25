@@ -119,7 +119,7 @@ function skriverVinder(winner){
     if (winner === "com") {
         document.querySelector("#lose").classList.remove("hidden");
     }
-    if (winner === "user") {
+    else if (winner === "user") {
       document.querySelector("#win").classList.remove("hidden");
     }
     else {
